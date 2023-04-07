@@ -1,0 +1,18 @@
+.nav{
+  background-color: #00FFCC;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  
+}
+.nav_comp{
+  font-size: 3vh;
+  height: 10vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_comp:hover{
+  background-color: #30ceaf;
+}
