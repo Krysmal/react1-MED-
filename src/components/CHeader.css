@@ -7,9 +7,25 @@
     justify-content: center;
     
 }
-.title{
+.header_comp_title{
     text-align: center;
-    font-size: 5vh;
+    width: 80vw;
+    font-size:5vh;
+    height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.header_comp_side{
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
     
+}
+.logo_header{
+    width: 7vmin;
+    height: 8vmin;
     
 }
