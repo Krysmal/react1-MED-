@@ -35,14 +35,29 @@
     justify-content:space-around;
     align-items: center;
 }
+.footer_comp_social_media{
+    width: 100%;
+    display: flex;
+    font-size: 2vh;
+    height: 5vh;
+    margin-bottom: 1vh;
+    justify-content:center;
+    align-items: center;
+}
 .footer_comp_item:hover{
     background-color: #30ceaf;
   }
-a{
+.footer_link{
     text-decoration: none;
     color:black;
 }
 .logo_footer{
     width: 10.5vmin;
     height: 12vmin;
+}
+.footer_social_media_logo{
+    margin-left: 1vh;
+    margin-right: 1vh;
+    width: 5vh;
+    height: 5vh;
 }
