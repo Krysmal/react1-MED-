@@ -18,3 +18,11 @@
 .nav_comp:hover{
   background-color: #30ceaf;
 }
+.dropdown1{
+  background-color: red;
+  position: fixed;
+  top:20vh;
+  left: 25vw;
+  width: 25vw;
+  
+}

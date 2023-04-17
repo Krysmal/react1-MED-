@@ -10,7 +10,7 @@ class CHeader extends Component
         return(
             <div className="container">
                 <CHome statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
-                <CFooter/>
+                <CFooter statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
             </div>
         )
     }

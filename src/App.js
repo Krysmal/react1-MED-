@@ -7,8 +7,8 @@ function App() {
   const [statusCCon,updatestatusCCon] = useState([0]);
   return (
     <div className='app'>
-      <CHeader type="1"/>
-      <CNav type="dsfdrgdr" statusCCon={statusCCon} updatestatusCCon={updatestatusCCon}/>
+      <CHeader statusCCon={statusCCon} updatestatusCCon={updatestatusCCon}/>
+      <CNav statusCCon={statusCCon} updatestatusCCon={updatestatusCCon}/>
       <CContainer statusCCon={statusCCon} updatestatusCCon={updatestatusCCon}/>
     </div>
   );

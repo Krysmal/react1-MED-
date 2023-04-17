@@ -8,6 +8,8 @@ class CHome extends Component
     {
         return(
             <div className="container_home">
+
+                Witaj
                 {this.props.statusCCon}
 
             </div>
