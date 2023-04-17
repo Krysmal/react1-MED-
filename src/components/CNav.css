@@ -6,12 +6,14 @@
   
 }
 .nav_comp{
+  background-color: #00FFCC;
   font-size: 3vh;
   height: 10vh;
   width: 25vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .nav_comp:hover{
   background-color: #30ceaf;

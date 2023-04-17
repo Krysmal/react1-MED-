@@ -4,12 +4,12 @@ import CFooter from './CFooter';
 import CHome from './CHome';
 class CHeader extends Component
 {
+    
     render()
     {
         return(
             <div className="container">
-                
-                <CHome/>
+                <CHome statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
                 <CFooter/>
             </div>
         )
