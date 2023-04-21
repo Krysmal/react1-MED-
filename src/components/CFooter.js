@@ -5,6 +5,7 @@ import logo_yt from "../img/logo_yt.png";
 import logo_fb from "../img/logo_fb.png";
 class CHeader extends Component
 {
+    
     render()
     {
         return(
@@ -26,8 +27,8 @@ class CHeader extends Component
                     <div className="footer_comp_header"><b>Autor:</b></div>
                     <div className="footer_comp_item">Krzysztof Malinowski</div>
                 </div>
-                <div className="footer_comp">
-                    <img className="logo_footer" src={logo} alt="logo"></img>
+                <div className="footer_comp" >
+                    <img className="logo_footer" src={logo}  alt="logo" ></img>
                 </div>
             </div>
         )

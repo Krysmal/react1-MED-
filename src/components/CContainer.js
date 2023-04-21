@@ -2,19 +2,43 @@ import React, {Component} from "react";
 import "./CContainer.css";
 import CFooter from './CFooter';
 import CHome from './CHome';
-class CHeader extends Component
+import CHistory from "./CHistory";
+class CContainer extends Component
 {
     
     render()
     {
-        return(
-            <div className="container">
-                <CHome statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
-                <CFooter statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
-            </div>
-        )
+        switch(this.props.statusCCon){
+            case 0:
+            return(
+                <div className="container" >
+                    
+                    <CHome statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+                    <CFooter statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+                </div>
+            );
+
+            case 22:
+            return(
+                <div className="container">
+                    
+                    <CHistory statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+                    <CFooter statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+                </div>
+            );
+
+            default:
+                return(
+                    <div className="container">
+                        
+                        <CHome statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+                        <CFooter statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+                    </div>
+                );  
+        }
+        
     }
 
 }
 
-export default CHeader;
+export default CContainer;

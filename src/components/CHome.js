@@ -7,10 +7,10 @@ class CHome extends Component
     render()
     {
         return(
-            <div className="container_home">
+            <div className="container_home" >
 
                 Witaj
-                {this.props.statusCCon}
+                
 
             </div>
         )
