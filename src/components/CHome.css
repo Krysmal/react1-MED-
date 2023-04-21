@@ -1,7 +1,8 @@
 .container_home{
-    width: (100vw-10px);
+    width: calc(100vw-10px);
     height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }

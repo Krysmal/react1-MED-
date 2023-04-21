@@ -6,13 +6,46 @@
   
 }
 .nav_comp{
+  background-color: #00FFCC;
   font-size: 3vh;
   height: 10vh;
   width: 25vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .nav_comp:hover{
   background-color: #30ceaf;
+}
+.dropdown{
+  background-color: white;
+  position: fixed;
+  top:20vh;
+  
+  width: calc(25% - 3px);
+  border-left: solid 2px rgb(180, 180, 180);
+  border-right: solid 2px rgb(180, 180, 180);
+  border-bottom: solid 2px rgb(180, 180, 180);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dropdown1{
+  
+  left: 25vw;
+  
+}
+.dropdown2{
+  
+  left: 50vw;
+}  
+
+.dropdown_item{
+  text-align: center;
+  height: 3vh;
+  font-size: 2.4vh;
+}
+.dropdown_item:hover{
+  background-color: rgb(180, 180, 180);
 }
