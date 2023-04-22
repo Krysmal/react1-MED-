@@ -20,8 +20,8 @@ class CHeader extends Component
         this.showManagment=this.showManagment.bind(this);
         this.showDoctor1=this.showDocror1.bind(this);
         this.showDoctor2=this.showDocror2.bind(this);
+        this.showContact=this.showContact.bind(this);
         this.showAppo=this.showAppo.bind(this);
-        
     }
     
     showdrop1(){
