@@ -20,7 +20,8 @@ class CHeader extends Component
         this.showManagment=this.showManagment.bind(this);
         this.showDoctor1=this.showDocror1.bind(this);
         this.showDoctor2=this.showDocror2.bind(this);
-        this.showContact=this.showContact.bind(this);
+        this.showAppo=this.showAppo.bind(this);
+        
     }
     
     showdrop1(){
@@ -54,6 +55,9 @@ class CHeader extends Component
     showContact(){
         this.props.updatestatusCCon(40);
     }
+    showAppo(){
+        this.props.updatestatusCCon(10);
+    }
     render()
     {
         
@@ -62,7 +66,7 @@ class CHeader extends Component
             <div className="nav">
                 
                 
-                <div className="nav_comp" >Zarezerwuj Wizytę</div>
+                <div className="nav_comp" onClick={this.showAppo}>Zarezerwuj Wizytę</div>
                 
                 <div className="nav_comp" onMouseEnter={this.showdrop1} onMouseLeave={this.hidedrop1}>Nasi Lekarze</div>
                 {this.state.dropdown1 ? <div className="dropdown dropdown1" onMouseEnter={this.showdrop1} onMouseLeave={this.hidedrop1}>

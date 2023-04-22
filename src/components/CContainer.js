@@ -7,6 +7,7 @@ import CManagment from "./CManagment";
 import CDoctor1 from "./CDoctor1";   
 import CDoctor2 from "./CDoctor2";
 import CContact from "./CContact";
+import CAppo from "./CAppo";
 class CContainer extends Component
 {
     
@@ -21,6 +22,15 @@ class CContainer extends Component
                     <CFooter statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
                 </div>
             );
+            case 10:
+            return(
+                <div className="container">
+                    
+                    <CAppo statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+                    <CFooter statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+                </div>
+            );
+            
             case 21:
             return(
                 <div className="container">
