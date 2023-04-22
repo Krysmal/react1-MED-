@@ -1,16 +1,17 @@
 .footer{
     background-color: #00FFCC;
-    width: (100vw-10px);
-    height: 20vh;
-    min-height: 100px;
-    display: flex;
     
+    height: 20vh;
+    
+    display: flex;
+    width: calc(100vw-10px);
     justify-content:space-around;
     align-items: center;
     
 }
 .footer_comp{
-    height: 16vh;
+    margin-top: 2vh;
+    height: 18vh;
     width: 20vw;
     display: flex;
     flex-direction: column;

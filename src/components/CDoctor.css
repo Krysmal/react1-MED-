@@ -1,0 +1,26 @@
+.container_doctor{
+    width: calc(100vw-10px);
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_doctor_img{
+    height: 40vh;
+    width: 20vw;
+}
+.container_doctor_info{
+    padding-left: 3vw;
+    height: 40vh;
+    width: 40vw;
+    
+
+}
+.container_doctor_info_item{
+    width: 40vw;
+    font-size: 4vh;
+    height: 5vh;
+    margin-bottom: 5vh;
+}

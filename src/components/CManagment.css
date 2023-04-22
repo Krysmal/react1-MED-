@@ -1,20 +1,29 @@
-.container_history{
+.container_managment{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     width: calc(100vw-10px);
+    height: 60vh;
 }
-.container_history_title{
+.container_managment_header{
     font-size: 4vh;
     width: 60vw;
     text-align: center;
     margin-top: 4vh;
     margin-bottom: 4vh;
-    
 }
-.container_history_content{
+.container_managment_content{
     font-size: 2vh;
     width: 60vw;
     margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+}
+.container_managment_content_item{
+    
+    font-size: 3vh;
+    width: 40vw;
 }

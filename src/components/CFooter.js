@@ -5,7 +5,14 @@ import logo_yt from "../img/logo_yt.png";
 import logo_fb from "../img/logo_fb.png";
 class CHeader extends Component
 {
-    
+    constructor()
+    {
+        super();
+        this.showHome=this.showHome.bind(this);
+    }
+    showHome(){
+        this.props.updatestatusCCon(0);
+    }
     render()
     {
         return(
@@ -27,7 +34,7 @@ class CHeader extends Component
                     <div className="footer_comp_header"><b>Autor:</b></div>
                     <div className="footer_comp_item">Krzysztof Malinowski</div>
                 </div>
-                <div className="footer_comp" >
+                <div className="footer_comp" onClick={this.showHome}>
                     <img className="logo_footer" src={logo}  alt="logo" ></img>
                 </div>
             </div>
