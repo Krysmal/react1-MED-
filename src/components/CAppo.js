@@ -23,7 +23,7 @@ class CAppo extends Component
                                         <div className="form_group">
                                             <div className="form_remember">
                                                 <input type="checkbox" className="form_checkbox" id="customCheck"/>
-                                                <label className="custom-control-label" for="customCheck">Zapamiętaj mnie</label>
+                                                <label  for="customCheck">Zapamiętaj mnie</label>
                                             </div>
                                         </div>
                                         <div className="form_group">

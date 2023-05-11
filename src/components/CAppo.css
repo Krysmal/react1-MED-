@@ -53,14 +53,26 @@
     
 }
 .form_login{
-
+    font-size: 2vh;
+    text-align: center;
 }
 .form_password{
-
+    font-size: 2vh;
+    text-align: center;
 }
 .form_checkbox{
-
+    width: 2vh;
+    height: 2vh;
+    margin-right: 1vw;
 }
 .form_submit{
+    font-size: 2vh;
     
+    width: 20vw;
+    height: 3vh;
+    background-color: white;
+    border: 0;
+}
+.form_submit:hover{
+    background-color: rgb(180, 180, 180);
 }
