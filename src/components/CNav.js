@@ -18,6 +18,7 @@ class CHeader extends Component
         this.hidedrop2=this.hidedrop2.bind(this);
         this.showHistory=this.showHistory.bind(this);
         this.showManagment=this.showManagment.bind(this);
+        this.showDoctors=this.showDocrors.bind(this);
         this.showDoctor1=this.showDocror1.bind(this);
         this.showDoctor2=this.showDocror2.bind(this);
         this.showContact=this.showContact.bind(this);
@@ -46,6 +47,9 @@ class CHeader extends Component
     showManagment(){
         this.props.updatestatusCCon(31);
     }
+    showDocrors(){
+        this.props.updatestatusCCon(20);
+    }
     showDocror1(){
         this.props.updatestatusCCon(21);
     }
@@ -68,7 +72,7 @@ class CHeader extends Component
                 
                 <div className="nav_comp" onClick={this.showAppo}>Zarezerwuj Wizytę</div>
                 
-                <div className="nav_comp" onMouseEnter={this.showdrop1} onMouseLeave={this.hidedrop1}>Nasi Lekarze</div>
+                <div className="nav_comp" onMouseEnter={this.showdrop1} onMouseLeave={this.hidedrop1} onClick={this.showDoctors}>Nasi Lekarze</div>
                 {this.state.dropdown1 ? <div className="dropdown dropdown1" onMouseEnter={this.showdrop1} onMouseLeave={this.hidedrop1}>
                     <div className="dropdown_item" onClick={this.showDoctor1}> Andrzej Markiewicz</div>
                     <div className="dropdown_item" onClick={this.showDoctor2}> Sławomir Kowalski</div>

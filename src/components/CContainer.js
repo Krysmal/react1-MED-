@@ -30,7 +30,16 @@ class CContainer extends Component
                     <CFooter statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
                 </div>
             );
-            
+            case 20:
+            return(
+                <div className="container">
+                    
+                    <CDoctor1 statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+                    <CDoctor2 statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+                    <CFooter statusCCon={this.props.statusCCon} updatestatusCCon={this.props.updatestatusCCon}/>
+
+                </div>
+            );
             case 21:
             return(
                 <div className="container">
